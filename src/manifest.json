@@ -1,0 +1,21 @@
+
+{
+  "name": "Always PR to Fucking Develop",
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "description": "Makes sure you always PR to fucking develop.",
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": [
+        "js/content.js"
+      ]
+    }
+  ],
+
+  "permissions": [
+    "activeTab",
+    "https://github.com/"
+  ]
+}
