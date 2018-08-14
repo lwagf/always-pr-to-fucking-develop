@@ -5,7 +5,7 @@
   <i>base:</i>
   <span class="js-select-button css-truncate css-truncate-target" title="base: master">master</span>
 </button>
-` 
+`
 
 **TO:**
 
