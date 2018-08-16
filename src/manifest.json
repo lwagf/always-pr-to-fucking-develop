@@ -9,6 +9,7 @@
     {
       "matches": ["https://github.com/*"],
       "js": [
+        "js/jQuery.min.js",
         "js/content.js"
       ]
     }
