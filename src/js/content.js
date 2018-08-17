@@ -16,7 +16,7 @@ if ($recentBranches && $recentBranches.length > 0) {
 
     for (var a = 0; a <= links.length; a++) {
         var $link = $(links[a]);
-        if ($link.attr('href') && $link.attr('href').indexOf('master...')) {
+        if ($link.attr('href') && $link.attr('href').indexOf('master...') != -1) {
             $link.attr('href', $link.attr('href').replace('master...', 'develop...'));
         }
     }
