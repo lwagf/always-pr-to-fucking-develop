@@ -14,6 +14,13 @@
       ]
     }
   ],
+  "browser_action": {
+    "default_icon": "img/icon.png",
+    "default_title": "ALWAYS PR TO FUCKING DEVELOP"
+  },
+  "icons": {
+    "128": "img/icon.png"
+  },
 
   "permissions": [
     "activeTab",
